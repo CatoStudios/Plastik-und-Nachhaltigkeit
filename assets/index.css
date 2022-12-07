@@ -113,11 +113,11 @@ marquee {
         width: 100%;
     }
 
-    main #wrapper1{ 
+    main #wrapper1 #title{ 
         display: flex;
         margin-bottom: 3em;
     }
-    main #wrapper1 #aboutme{
+    main #wrapper1 #intro{
         font-size: x-large;
         background-color: rgba(54, 67, 77, 0.507);
         min-width: 60%;
@@ -126,22 +126,27 @@ marquee {
         margin: 0 0 0 2em;
         box-shadow: 0px 0px 10px black;
     }
-    main #wrapper1 #reftoprice{
+    main #wrapper1 #nachhaltigesplastik{
         width: 100%;
         height: 100%;
         align-items: center;
         justify-content: center; 
         margin: auto;
     }
-    main #wrapper1 #reftoprice img{
-        width: 83%;
-        height: 83%;
-        border-radius: 20px;
-        margin: 4.5% 9.5% 4.5% 9.5%;
-    }
 
-    main #wrapper2 {
-       
+    main #wrapper2 #schlechtesplastik {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+    }
+    main #wrapper3 #schlechtesplastikverhindern {
+         width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
     }
 }
 
