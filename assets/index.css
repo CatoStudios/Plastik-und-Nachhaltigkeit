@@ -101,3 +101,6 @@ marquee {
 .text-lime{
     color: limegreen;
 }
+.container {
+  display: grid | inline-grid;
+}
