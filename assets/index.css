@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Times New Roman", "Courier New", monospace;
     color: white;
 }
 
@@ -13,58 +13,16 @@ body{
     background-size: 200px;
 }
 
-marquee {
-  height: 100vh;
-}
-
-    :root{
-        --main-border-radius: 3em;
-        --default-margin: 1.5em;
-    }
-
-    #popup-content{
-        position: relative;
-        width: 700px;
-        height: 275px;
-        margin: auto 0 auto 0;
-        background-color: gray;
-        border-radius: 100px;
-        box-shadow: 0px 0px 400px black;
-    }
-
-    #popup-content img{
-        position: relative;
-        width: 225px;
-        height: 225px;
-        margin: 25px 30px 25px 30px;
-        border-radius: 50%; 
-        border-color: blueviolet;
-        border-style: 100px;
-    }
-
     main{
-        width: 1400px;
+        width: 1600px;
         background-color: rgba(0, 0, 0, 0.6);
         margin: 3em auto 3em auto;
         box-shadow: 0px 0px 400px black;
         border-radius: var(--main-border-radius);
         padding-bottom: 3em;
-    }
+}
 
-    main #banner{
-        width: 100%;
-        border-top-left-radius: var(--main-border-radius);
-        border-top-right-radius: var(--main-border-radius);
-    }
-    
-    main .wrapper{
-        width: 100%;
-    }
 
-    main #wrapper1 { 
-        display: flex;
-        margin-bottom: 3em;
-    }
     main #wrapper1 {
         font-size: x-large;
         background-color: rgba(54, 67, 77, 0.507);
@@ -81,26 +39,3 @@ marquee {
         justify-content: center; 
         margin: auto;
     }
-
-.hidden{
-    display: none !important;
-}
-
-.text-pink{
-    color: palevioletred;
-}
-
-.text-white{
-    color: white;
-}
-
-.text-red{
-    color: red;
-}
-
-.text-lime{
-    color: limegreen;
-}
-.container {
-  display: grid | inline-grid;
-} 
