@@ -13,6 +13,11 @@ body{
     background-size: auto;
 }
 
+ main #banner{
+        width: 100%;
+        border-top-left-radius: var(--main-border-radius);
+        border-top-right-radius: var(--main-border-radius);
+    }
     main{
         width: 1000px;
         margin: 3em auto 3em auto;
